@@ -1,0 +1,59 @@
+/* google fonts add */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,500&display=swap');
+
+/* common css */
+body{
+   
+    font-family:  'Poppins', sans-serif;
+}
+
+.form-control::placeholder ,.fa-search{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+    opacity: .5; /* Firefox */
+    
+}
+.link-button{
+
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border-radius: 6px;
+    color: white;
+    padding:12px 20px;
+}
+.catagories-item{
+    color:#FFf;
+    font-size: 36px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.link-button-card{
+    padding:12px 20px;
+}
+.shoes-area  .card , .bag-area .card{
+  border-radius:20px ;
+}
+.append-button{
+    background:linear-gradient(180deg, #FF589B 0%, #FF136F 100%);
+    border-radius:7px;
+    border-left: 0px;
+
+}
+input
+element.style {
+    background-color: #FFF;
+}
+.input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3), .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.input-group>.form-control:focus, .input-group>.form-select:focus {
+    z-index: 3;
+}
+.input-group>.form-control, .input-group>.form-select {
+    position: relative;
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+}
+.footer-form:focus {
+    box-shadow: none;
+}
